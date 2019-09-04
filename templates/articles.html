@@ -1,0 +1,12 @@
+{% extends 'layout.html'%}
+    {% block title %}Flask MySQL | Articles{% endblock %}
+{% block body %}
+<h1 class="page-header">Articles</h1>
+  <ul class="list-group">
+    {% for article in articles %}
+    <li class="list-group-item">
+        <p><a href="article/{{ article.id }}">{{ article.title }}</a> <small class="pull-right">Written by {{ article.author }}</small></p>
+    </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'layout.html'%}
+    {% block title %}Flask MySQL | Home{% endblock %}
+{% block body %}
+    <div class="jumbotron text-center">
+        <h1>Welcome to Flask-MySQL App</h1>
+        <p class="lead">This application is built on Python Flask Framework and a backend using MySQL Database</p>
+        {% if session.logged_in == NULL %}
+			<a href="{{url_for('register')}}" class="btn btn-primary"><i class="fas fa-database"></i> Register</a>
+			<a href="{{url_for('login')}}" class="btn btn-success"><i class="fas fa-lock"></i> Login</a>
+        {% endif %}
+    </div>
+{% endblock %}
