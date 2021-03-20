@@ -26,7 +26,7 @@ Flask-User==1.0.1.5
 Flask-WTF==0.14.2
 gunicorn==19.9.0
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 Mako==1.1.0
 MarkupSafe==1.1.1
 mimerender==0.6.0
