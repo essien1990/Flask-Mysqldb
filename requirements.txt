@@ -35,7 +35,7 @@ mysqlclient==1.4.4
 passlib==1.7.1
 patool==1.12
 postgresadapter==2.0.1
-protobuf==3.9.1
+protobuf==3.15.0
 psycopg2==2.7.7
 pycparser==2.19
 pymongo==3.9.0
